@@ -1,0 +1,40 @@
+What is timing of medical store?,8 AM to 10 PM,text
+When the doctors are available for orthopedics?,8 AM to 9 AM,text
+When can I visit dietician?,11 AM to 2 PM,text
+When can I visit nutritionist?,8 AM to 10 AM,text
+Is doctor available on sunday?,"Yes, Doctors are available on Sunday from 10 AM to 4PM",text
+Is doctor available on saturday?,"Yes, Doctors are available on Saturday from 10 AM to 4PM",text
+What is approximate fees of a visit?,Fees per visit are 500,text
+How much fees do I have to pay?,Fees per visit are 500,text
+Is there medical store available in hospital itself?,"Yes, Hospital is having its own medical store.",text
+What is the insurance process here?,"Upload the documents like copy of policy, summary of bills of previous visits, prescriptions, discharge card.",text
+How can my mediclaim be accessed?,"Upload the documents like copy of policy, summary of bills of previous visits, prescriptions, discharge card.",text
+What are the procedures to access my mediclaim?,"Upload the documents like copy of policy, summary of bills of previous visits, prescriptions, discharge card.",text
+How can I claim my insurance?,"Upload the documents like copy of policy, summary of bills of previous visits, prescriptions, discharge card.",text
+Is doctor available on weekends?,"Yes, the doctors are available throughout at their timings, you can either get info by asking here or check out our site.",text
+How frequent is the visit of a doctor in general ward?,"Every hour , a specialist visits to check the status of patients and the helpies are always nearby.",text
+Can you show me image for Delux rooms in your hospital?,,text
+Where is your hospital located?,"Our hospital is located at Adajan , Surat-395007, opp. Tapi River.",text
+Can you justify environment in the hospital?,http://chahalacademyexpenditures.hostingerapp.com/env2.jpeg,image_url
+Can you share some images of general ward?,http://chahalacademyexpenditures.hostingerapp.com/gen2.png,image_url
+Please tell me when Dr. Verma visits the hospital?,Dr. Verma visits hospital at 9am and consultation time for the same dues for an hour till 10am.,text
+Can you show me image for common rooms in your hospital?,http://chahalacademyexpenditures.hostingerapp.com/gen2.png,image_url
+Please display list of doctors available at your hospital?,http://chahalacademyexpenditures.hostingerapp.com/doc2.jpg,image_url
+How to call Ambulance?,9404152440,call
+What is emergency contact number of Ambulance?,9404152440,call
+What is satisfaction rate?,Just get visited once and we show you satisfaction rate. Our Hospital is rated 4 out of 5 from National Survey Agency,text
+Is your hospital rated?,"Yes, Our Hospital is rated 4 out of 5 from National Survey Agency",text
+When can I meet Dr. Sharma for orthopedics?,Dr. Sharma is available on Wednesday,text
+Which doctors are available for orthopedics?,"Dr Aayush Patel from 10am to 12pm will be available at our hospital , you can consult him..but book an appointment by calling at 9594099353 or at our landline no. on site.",text
+Which doctors are available for cancer treatment?,"Dr Philip from 8pm to 9pm will be available at our hospital , you can consult him..but book an appointment by calling at 9594099353 or at our landline no. on site.",text
+Which physicians are available and when?,"Yes, physicians with great experience visit daily forenoon..",text
+Are physicians available regularly?,"Yes, physicians with great experience visit daily forenoon..",text
+Which government schemes can I avail in your hospital?,"Aayushman Bharat scheme, Child health scheme are available.",text
+Which doctors to consult for kidney problems?,"Dr Raj Shah from 8pm to 9pm will be available at our hospital , you can consult him..but book an appointment by calling at 9594099353 or at our landline no. on site.",text
+Which doctors to consult for heart issues?,"Dr Paul Bansal from 3pm to 4pm will be available at our hospital , you can consult him..but book an appointment by calling at 9594099353 or at our landline no. on site.",text
+Which doctors to consult for heart problems?,"Dr Carl from 3pm to 4pm will be available at our hospital , you can consult him..but book an appointment by calling at 9594099353 or at our landline no. on site.",text
+Which doctors are available for treating cancer?,"Dr Sharma from 6pm to 7pm will be available at our hospital , you can consult him..but book an appointment by calling at 9594099353 or at our landline no. on site.",text
+Will treatment be available on weekends?,"Yes, the doctors are available throughout at their timings, you can either get info by asking here or check out our site.",text
+Give me exact location of your hospital using maps.,http://chahalacademyexpenditures.hostingerapp.com/fortis.png,image_url
+Show  the delux rooms of your hospital,http://chahalacademyexpenditures.hostingerapp.com/deluxe2.jpg,image_url
+What documents should I bring for claiming health insurance?,http://chahalacademyexpenditures.hostingerapp.com/insurance2.png,image_url
