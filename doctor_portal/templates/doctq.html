@@ -1,0 +1,198 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FAQs</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+    .context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+    }
+
+    .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+        color: #ffffff;
+    }
+    .nav-list li {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .nav-list li a:hover:before {
+        margin-left: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    ul, ol {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .social-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 23px;
+        font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .social-container .col {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .nav-list li a:before {
+        content: "\f14f";
+        font: 400 21px/1 "Material Design Icons";
+        color: #4d6de6;
+        display: inline-block;
+        vertical-align: baseline;
+        margin-left: -28px;
+        margin-right: 7px;
+        opacity: 0;
+        visibility: hidden;
+        transition: .22s ease;
+    }
+    form_main {
+    width: 100%;
+    }
+    .form_main h4 {
+        font-family: roboto;
+        font-size: 20px;
+        font-weight: 300
+        margin-bottom: 15px;
+        margin-top: 20px;
+        text-transform: uppercase;
+    }
+    .heading {
+        border-bottom: 1px solid #fcab0e;
+        padding-bottom: 9px;
+        position: relative;
+    }
+    .heading span {
+        background: #9e6600 none repeat scroll 0 0;
+        bottom: -2px;
+        height: 3px;
+        left: 0;
+        position: absolute;
+        width: 75px;
+    }   
+    .form {
+        border-radius: 7px;
+        padding: 6px;
+    }
+    .txt[type="text"] {
+        border: 1px solid #ccc;
+        margin: 10px 0;
+        padding: 10px 0 10px 5px;
+        width: 100%;
+    }
+    .txt_3[type="text"] {
+        margin: 10px 0 0;
+        padding: 10px 0 10px 5px;
+        width: 100%;
+    }
+    .txt2[type="submit"] {
+        background: #242424 none repeat scroll 0 0;
+        border: 1px solid #4f5c04;
+        border-radius: 25px;
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 35px;
+        margin: 10px 0;
+        padding: 0;
+        text-transform: uppercase;
+        width: 30%;
+    }
+    .txt2:hover {
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+        color: #5793ef;
+        transition: all 0.5s ease 0s;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Enter More FAQs</h2>
+  <form action = "{{ url_for('addque') }}" method = "POST">
+    <div class="form-group">
+      <label for="text">Question:</label>
+      <textarea class="form-control" placeholder="Enter the query.." name="ques"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="text">Answer:</label>
+      <textarea class="form-control" placeholder="Enter Answer" name="ans"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="text">Type:</label>
+      <textarea class="form-control" placeholder="Enter Type (text, image_url,video_url)" name="typ"></textarea>
+    </div>
+    <div>
+      <input type='radio' name='choose_one' value='Orthopedics/ Physiotherapy'>Orthopedics/ Physiotherapy<br>
+      <input type='radio' name='choose_one' value='Nutrition/Diet'>Nutrition/Diet<br>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
+<br>
+  <br>
+  <br>
+<footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
+  <div class="container">
+    <div class="row row-30">
+      <div class="col-md-4 col-xl-5">
+        <div class="pr-xl-4"><img class="brand-logo-light" src="images.png" alt="" width="51" height="50">
+          <p>We are an award-winning creative agency, dedicated to the best result in public HealthCare, promotion, medical consulting.</p>
+          <!-- Rights-->
+          <p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>Waves</span><span>. </span><span>All Rights Reserved.</span></p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h5>Contacts</h5>
+        <dl class="contact-list">
+          <dt>Address:</dt>
+          <dd>SVNIT Surat, Icchhanath-395007</dd>
+        </dl>
+        <dl class="contact-list">
+          <dt>email:</dt>
+          <dd><a href="mailto:#">rajshah9914@gmail.com</a></dd>
+        </dl>
+        <dl class="contact-list">
+          <dt>phones:</dt>
+          <dd><a href="tel:#">+91 9594099353</a> <span>or</span> <a href="tel:#">+91 9404152440</a>
+          </dd>
+        </dl>
+      </div>
+      <div class="col-md-4 col-xl-3">
+        <h5>Links</h5>
+        <ul class="nav-list">
+          <li><a href="#">Login</a></li>
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Slack</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br> 
+  <!-- <div class="row no-gutters social-container">
+    <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
+    <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
+    <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
+    <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
+  </div> -->
+</footer>
+</body>
+</html>

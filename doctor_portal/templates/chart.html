@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <title>Chart.js </title>
+ 
+   <!-- import plugin script -->
+   <script src='static/Chart.min.js'></script>
+ 
+   <script src="https://www.chartjs.org/dist/2.7.1/Chart.bundle.js"></script>
+   <script src="https://www.chartjs.org/samples/latest/utils.js"></script>
+ 
+</head>
+<body>
+    <div style="width:75%;">
+        <canvas id="canvas"></canvas>
+    </div>
+    <script>
+        var config = {
+            type: 'line',
+            data: {
+                xLabels: [
+                  {% for item in labels %}
+                    "{{item}}",
+                  {% endfor %}
+                ],
+                yLabels: ['', 'Work day', 'Day off'],
+                datasets: [{
+                    label: "My First dataset",
+                    data: [
+                    {% for item in values %}
+                      "{{item}}",
+                    {% endfor %}
+],
+                    fill: false,
+                    borderColor: window.chartColors.red,
+                    backgroundColor: window.chartColors.red
+                }]
+            },
+            options: {
+                responsive: true,
+                title:{
+                    display:true,
+                    text:'Health Tracking'
+                },
+                scales: {
+                    xAxes: [{
+                        display: true,
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Time in date'
+                        }
+                    }],
+                    yAxes: [{
+                        type: 'category',
+                        position: 'left',
+                        display: true,
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Health'
+                        },
+                        ticks: {
+                            reverse: true
+                        }
+                    }]
+                }
+            }
+        };
+ 
+        window.onload = function() {
+            var ctx = document.getElementById("canvas").getContext("2d");
+            window.myLine = new Chart(ctx, config);
+        };
+    </script>
+</body>
+</html>
