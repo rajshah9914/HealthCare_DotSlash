@@ -33,15 +33,20 @@ Here, you will be able to step wise instructions to run this bot. Additionally, 
 ### Installing & Prerequisites
 
 A step by step series of examples that tell you how to get a development env running
+
+### Natural Language Processing(ML) libraries => Python
+
 ```
 pip install difflib  => Sequence matching algorithm
 ```
 ```
-pip install flask  => For API
-```
-```
 pip install snips-nlu  => Natural Language Understanding Library
 ```
+```
+pip install flask  => For API
+```
+
+### Major Android Dependencies
 ```
 Install Android Studio latest version => Sequence matching algorithm
 ```
@@ -65,8 +70,8 @@ implementation 'com.android.volley:volley:+'
 <table>
 <table>
 <tr>
-<th><img src="https://github.com/Aayushpatel007/GoogleDriveAccess/blob/master/WhatsApp%20Image%202019-02-03%20at%2011.26.19%20AM.jpeg"width="240" height="340"></th>
-<th><img src="https://github.com/Aayushpatel007/GoogleDriveAccess/blob/master/WhatsApp%20Image%202019-02-03%20at%2011.26.18%20AM.jpeg"width="240" height="340"></th>
+<th><img src="https://github.com/Aayushpatel007/GoogleDriveAccess/blob/master/WhatsApp%20Image%202019-02-03%20at%2011.26.19%20AM.jpeg"width="240" height="390"></th>
+<th><img src="https://github.com/Aayushpatel007/GoogleDriveAccess/blob/master/WhatsApp%20Image%202019-02-03%20at%2011.26.18%20AM.jpeg"width="240" height="390"></th>
 </tr>
 <table>
 
@@ -104,8 +109,8 @@ But, what if user's are not satisfied with the response they get from the chat-b
 
 ## Deployment
 
-* **Web application and Python code (Flask API) is hosted on heroku**
-* **You can get Android APK from this git repository**
+* **Web application and Python code (Flask API-hello.py) which hosted on heroku**
+* **You can get Android APK from this git repository (app-debug.apk)**
 
 ## Authors
 
