@@ -7,7 +7,7 @@
 <table>
 
 
-### An automatic trained voice-enabled conversational chatbot with images and video support which does not allow you to feel absense of doctor, hosptial staff and management by solving your desired quests.
+### An automatic trained voice-enabled conversational chatbot with images and video support which does not allow you to feel absence of doctor, hospital staff and management by solving your desired quests.
 
 ## Abstract
 
